@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+  "lib": {
+    "entryFile": "public_api.ts",
+    "jsx": "react",
+    "externals": {
+      "react": "React",
+      "react-dom": "ReactDOM",
+      "office-ui-fabric-react/lib/Label": "Label",
+      "office-ui-fabric-react/lib/Fabric": "Fabric"
+    }
+  }
+}
