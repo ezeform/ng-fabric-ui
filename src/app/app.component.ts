@@ -1,6 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { SpinnerSize } from 'office-ui-fabric-react/lib/Spinner';
-
+import { initializeIcons } from '@uifabric/icons';
 @Component({
   selector: 'fabric-ui-app',
   templateUrl: './app.component.html',
@@ -13,4 +13,8 @@ export class AppComponent {
   required = true;
   labelContent = 'I\'m a Label';
   spinnerSize = SpinnerSize;
+
+  constructor() { 
+    initializeIcons();
+  }
 }
