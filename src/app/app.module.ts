@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { FabricLabelModule } from './lib/label/label.module';
 import { FabricCommandBarModule } from './lib/commandbar/commandbar.module';
 import { FabricSpinnerModule } from './lib/spinner/spinner.module';
+import { FabricNavBarModule } from './lib/nav-bar/nav-bar.module';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { FabricSpinnerModule } from './lib/spinner/spinner.module';
     FabricLabelModule,
     FabricSpinnerModule,
     FabricCommandBarModule,
+    FabricNavBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
